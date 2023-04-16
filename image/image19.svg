@@ -1,0 +1,22 @@
+<svg id="Component_37_18" data-name="Component 37 – 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="76.073" viewBox="0 0 236 76.073">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.423" y1="0.75" x2="0.529" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00e2ff"/>
+      <stop offset="1" stop-color="#00c5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2881" data-name="Group 2881">
+    <g id="Rectangle_3351" data-name="Rectangle 3351" fill="#000a0f" stroke="#00a6ff" stroke-width="0.5">
+      <rect width="236" height="76.073" rx="38.037" stroke="none"/>
+      <rect x="0.25" y="0.25" width="235.5" height="75.573" rx="37.787" fill="none"/>
+    </g>
+    <text id="Get_it_on" data-name="Get it on" transform="translate(104.802 27.696)" fill="#fff" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-27" y="0">GET IT ON</tspan></text>
+    <text id="Google_Play" data-name="Google Play" transform="translate(137.802 53.85)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-59" y="0">Google Play</tspan></text>
+    <g id="_x34_2.Google_PLay" transform="translate(34.579 22.115)">
+      <path id="Path_3905" data-name="Path 3905" d="M65.434,39.292l-5.393-3.115L54.521,41.7l5.52,5.52,5.411-3.125a2.8,2.8,0,0,0-.018-4.8Z" transform="translate(-38.643 -25.758)" fill="#ffce00"/>
+      <path id="Path_3906" data-name="Path 3906" d="M30.508,27.141,15.471,12a2.838,2.838,0,0,0-.841,2.017v26.21a2.839,2.839,0,0,0,.841,2.018Z" transform="translate(-14.63 -11.201)" fill="url(#linear-gradient)"/>
+      <path id="Path_3907" data-name="Path 3907" d="M31.779,25.94,37.3,20.419l.009-.009-7.4-4.259-9.751-5.731a2.766,2.766,0,0,0-2.84-.056,4.214,4.214,0,0,0-.579.429Z" transform="translate(-15.901 -10)" fill="#00f076"/>
+      <path id="Path_3908" data-name="Path 3908" d="M16.742,65.146a4.214,4.214,0,0,0,.579.429,2.9,2.9,0,0,0,1.382.374,2.846,2.846,0,0,0,1.438-.411l9.769-5.7,7.4-4.259-.009-.009-5.52-5.521Z" transform="translate(-15.901 -34.107)" fill="#f63448"/>
+    </g>
+  </g>
+</svg>

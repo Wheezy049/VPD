@@ -1,0 +1,16 @@
+<svg id="Component_37_25" data-name="Component 37 – 25" xmlns="http://www.w3.org/2000/svg" width="236" height="76" viewBox="0 0 236 76">
+  <g id="Group_2880" data-name="Group 2880">
+    <g id="Rectangle_3351" data-name="Rectangle 3351" fill="#000a0f" stroke="#00a6ff" stroke-width="0.5">
+      <rect width="236" height="76" rx="38" stroke="none"/>
+      <rect x="0.25" y="0.25" width="235.5" height="75.5" rx="37.75" fill="none"/>
+    </g>
+    <text id="Download_on_the" data-name="Download on the" transform="translate(85.245 26.5)" fill="#fff" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Download on the</tspan></text>
+    <text id="App_Store" data-name="App Store" transform="translate(139.245 53.5)" fill="#fff" font-size="22" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-54" y="0">App Store</tspan></text>
+    <g id="apple-black-logo" transform="translate(42.754 22.571)">
+      <g id="Group_2862" data-name="Group 2862">
+        <path id="Path_3909" data-name="Path 3909" d="M67.984,131.172c-.874-4.4,3.3-6.98,3.3-6.98a7.979,7.979,0,0,0-4.361-2.959,7.6,7.6,0,0,0-5.466.72,6.088,6.088,0,0,1-2.048.57c-1.972,0-3.413-2.088-7.17-1.137-2.588.653-5.313,3.641-5.805,7.207a19.546,19.546,0,0,0,2.618,11.648c2.048,3.531,4.135,4.858,5.616,4.9s2.959-1.061,4.742-1.328,2.882.646,4.631,1.139,2.354.035,4.361-1.672,3.835-6.6,3.835-6.6A7.073,7.073,0,0,1,67.984,131.172Z" transform="translate(-46.315 -113.359)" fill="#fff"/>
+        <path id="Path_3910" data-name="Path 3910" d="M256.743,5.028C258.679,3.055,258.023,0,258.023,0a9.276,9.276,0,0,0-4.541,2.373,6.835,6.835,0,0,0-1.519,4.893A8.556,8.556,0,0,0,256.743,5.028Z" transform="translate(-238.944)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
