@@ -1265,10 +1265,11 @@ hr {
   }
   .bank {
     height: 4rem;
-    width: 20rem;
+    width: 18rem;
     background-color: #002e45;
     top: 50%;
     left: 50%;
+    padding-top: 0.5rem;
     translate: (-50% -50%);
     margin-left: 0;
     margin-right: 0;
@@ -1292,7 +1293,7 @@ hr {
     text-align: center;
     padding: 0.8rem 0;
     font-weight: 700;
-    margin-left: 15rem;
+    margin-left: 13rem;
     float: left;
     font-size: 1.2rem;
     margin-top: -7px;
@@ -1303,7 +1304,7 @@ hr {
     height: 7px;
     width: 120px;
     float: left;
-    margin-left: 12rem;
+    margin-left: 9rem;
   }
 
   .layer-2 {
