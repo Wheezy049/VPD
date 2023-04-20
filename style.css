@@ -632,8 +632,9 @@ header {
   display: flex;
 }
 #phone-1 img {
-  width: 50%;
+  width: 40%;
   height: 70vh;
+  margin-left: 9rem;
 }
 #phone-1 div {
   color: #fff;
@@ -642,6 +643,7 @@ header {
   line-height: 1.6em;
   margin-left: 2rem;
   margin-top: 7rem;
+  display: none;
 }
 #phone-1 div a {
   text-decoration: none;
@@ -1258,7 +1260,7 @@ hr {
     left: 3vw;
     position: absolute;
     top: 58vh;
-    width: 30vw;
+    width: 80%;
     z-index: 999;
   }
   .bank {
@@ -1521,7 +1523,7 @@ hr {
 
   .layer-3 {
     background: #fff;
-    height: 77rem;
+    height: 79rem;
     position: relative;
     text-align: center;
     margin-top: -19px;
@@ -1657,7 +1659,7 @@ hr {
   }
   .business {
     background: #011b29;
-    height: 300vw;
+    height: 330vw;
     text-align: center;
     margin-top: -0.2rem;
     width: 100%;
