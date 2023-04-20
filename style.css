@@ -3,15 +3,134 @@
 }
 body {
   width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.general-body{
+  width: 100%;
   overflow-x: hidden;
   background-image: url(image/image1.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
   position: relative;
+  margin: 0;
   background-attachment: fixed;
+}
+.animations{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: index 8s linear;
+}
+.anim{
+    position: relative;
+}
+@keyframes index {
+    0%{
+        z-index: 999999;
+    }
+    10%{
+        z-index: 999999;
+    }
+    100%{
+        z-index: 999999;
+        opacity: 1;
+      }
+}
+.animation-first,.animation-second,.animation-third,.animation-fourth,.animation-last{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+.animation-first{
+    background-image: url(image/splash_person_1_d.webp);
+    opacity: 1;
+}
+.animation-second{
+    background-image: url(image/splash_person_2_d.webp);
+    opacity: 1;
+    animation: indexes 1.5s linear;
+}
+.animation-third{
+    background-image: url(image/splash_person_3_d.webp);
+    opacity: 1;
+    animation: indexes 3s linear;
+}
+.animation-fourth{
+    background-image: url(image/splash_person_4_d.webp);
+    opacity: 1;
+    animation: indexes 4.5s linear;
+}
+.animation-last{
+    background-image: url(image/blue_soft_bg_2x_plain.b581cc731d392261bfd9.png);
+    opacity: 1;
+    animation: indexes 6s linear;
+}
+@keyframes indexes{
+    0%{
+        z-index: -999999;
+    }
+
+    100%{
+        z-index: -999999;
+    }
+}
+.pre-head{
+    font-size: 60px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+.span-head{
+   color: rgb(38, 134, 208);
+   text-shadow: 0px 0px 0px rgb(255, 255, 255);
+   background-color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 10px;
+}
+.build{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 50px;
+}
+.pole{
+    color: white;
+    position: relative;
+    font-size: 50px;
+    top: 30px;
+    right: 120px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.575);
+}
+.span-head2{
+    position: relative;
+    bottom: 12px;
+    color: rgb(38, 134, 208);
+    font-size: 60px;
+    background-color: white;
+    text-shadow: 0px 0px 0px rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
 }
 
 /* HEADER */
@@ -151,7 +270,7 @@ header {
   padding-top: 5vw;
   position: relative;
   z-index: 99;
-  margin-left: -10px;
+  margin-left: 0;
 }
 .layer-2-main-text {
   color: #00a6ff;
@@ -967,25 +1086,64 @@ hr {
   margin-top: -0.5px;
 }
 @media screen and (max-width: 498px) {
-  body {
-    background-image: none;
+  .general-body{
+  background-image: none;
     width: 100%;
-    background-color: #fff;
-    margin: 0;
-    max-width: 100%;
     overflow-x: hidden;
   }
+.pre-head{
+    font-size: 40px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+.span-head{
+   color: rgb(38, 134, 208);
+   text-shadow: 0px 0px 0px rgb(255, 255, 255);
+   background-color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 10px;
+}
+.build{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 50px;
+}
+.pole{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: 30px;
+    right: 100px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.575);
+}
+.span-head2{
+    position: relative;
+    bottom: 12px;
+    color: rgb(38, 134, 208);
+    font-size: 40px;
+    background-color: white;
+    text-shadow: 0px 0px 0px rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
   .wrap {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
   }
+
   /* header */
   header {
     display: flex;
     position: absolute;
     width: 100%;
-    z-index: 999999;
+    z-index: 9999;
     max-height: 8vw;
   }
   .main-logo {
@@ -1007,7 +1165,7 @@ hr {
   }
   .checkbtn {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     float: right;
     line-height: 80px;
     margin-left: 220px;
@@ -1096,10 +1254,10 @@ hr {
     overflow: hidden;
   }
   .bank-text {
-    left: 6vw;
+    left: 5vw;
     position: absolute;
     top: 58vh;
-    width: 60vw;
+    width: 50vw;
     z-index: 999;
   }
   .bank {
@@ -1225,7 +1383,8 @@ hr {
     display: flex;
     margin-bottom: 20rem;
     overflow: scroll;
-    padding: 3vh 0 3vh 5vw;
+    overflow-y: hidden;
+    padding: 3vw 0 3vw 5vw;
     position: absolute;
     width: 100%;
     height: auto;
@@ -1252,6 +1411,7 @@ hr {
   .multi,
   .card,
   .invest {
+    margin: 0;
     margin-top: 10px;
   }
   .box-2 {
@@ -1360,13 +1520,12 @@ hr {
 
   .layer-3 {
     background: #fff;
-    height: auto;
+    height: 77rem;
     position: relative;
     text-align: center;
     margin-top: -19px;
     z-index: 999;
     border-radius: 0;
-    height: auto;
     width: 100%;
     margin-left: 0;
   }
@@ -1497,7 +1656,7 @@ hr {
   }
   .business {
     background: #011b29;
-    height: 270vw;
+    height: 300vw;
     text-align: center;
     margin-top: -0.2rem;
     width: 100%;
@@ -1587,7 +1746,7 @@ hr {
   }
   .grid-3 p {
     color: #ffffffb2;
-    font-size: 1rem;
+    font-size: 0.97rem;
     padding: 0.5rem;
     text-align: center;
   }
@@ -1612,7 +1771,7 @@ hr {
   #email,
   #customer {
     display: flex;
-    margin: 1rem 7rem;
+    margin: 1rem 5rem;
   }
     /* personal */
   .personal-layer-1{
