@@ -1269,7 +1269,7 @@ hr {
     background-color: #002e45;
     top: 50%;
     left: 50%;
-    padding-top: 0.5rem;
+    padding-top: 0.1rem;
     translate: (-50% -50%);
     margin-left: 0;
     margin-right: 0;
@@ -1294,7 +1294,7 @@ hr {
     padding: 0.8rem 0;
     font-weight: 700;
     margin: 0;
-    margin-left: 15rem;
+    margin-left: 14rem;
     float: left;
     font-size: 1rem;
     margin-top: -7px;
