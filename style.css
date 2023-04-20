@@ -1152,12 +1152,12 @@ hr {
     flex: 1 1;
     margin-left: 5vw;
     max-width: 32vw;
-    padding: 2vh 2vh 0;
+    padding: 2.5vh 2vh 0;
     text-align: center;
     width: 100%;
-    margin-top: -8px;
+    margin-top: -7px;
     position: absolute;
-    height: 7vh;
+    height: 8vh;
   }
   .main-logo img {
     max-width: 25vw;
@@ -1168,8 +1168,9 @@ hr {
     font-size: 30px;
     float: right;
     line-height: 80px;
-    margin-left: 220px;
-    margin-top: -0.5rem;
+    margin-left: 0;
+    margin-top: -1rem;
+    margin-right: 40px;
     cursor: pointer;
     display: block;
     position: relative;
@@ -1254,26 +1255,26 @@ hr {
     overflow: hidden;
   }
   .bank-text {
-    left: 5vw;
+    left: 3vw;
     position: absolute;
     top: 58vh;
-    width: 50vw;
+    width: 30vw;
     z-index: 999;
   }
   .bank {
     height: 4rem;
-    width: 22rem;
+    width: 20rem;
     background-color: #002e45;
     top: 50%;
     left: 50%;
     translate: (-50% -50%);
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 0;
     margin-top: 4rem;
     border-radius: 10px 10px 0 10px;
     text-align: center;
     color: #fff;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 1.5;
   }
@@ -1287,12 +1288,12 @@ hr {
     color: #00a6ff;
     border-radius: 0 0 10px 10px;
     text-align: center;
-    padding: 1.3rem 0 0 0;
+    padding: 0.8rem 0;
     font-weight: 700;
     margin-left: 15rem;
     float: left;
     font-size: 1.2rem;
-    margin-top: -5px;
+    margin-top: -7px;
     line-height: 0.5;
   }
   .border {
