@@ -1260,16 +1260,15 @@ hr {
     left: 3vw;
     position: absolute;
     top: 58vh;
-    width: 80%;
+    width: 30vw;
     z-index: 999;
   }
   .bank {
     height: 4rem;
-    width: 18rem;
+    width: 20rem;
     background-color: #002e45;
     top: 50%;
     left: 50%;
-    padding-top: 0.5rem;
     translate: (-50% -50%);
     margin-left: 0;
     margin-right: 0;
@@ -1287,15 +1286,16 @@ hr {
   .get {
     background-color: #fff;
     height: 2rem;
-    width: 8rem;
+    width: 6rem;
     color: #00a6ff;
     border-radius: 0 0 10px 10px;
     text-align: center;
     padding: 0.8rem 0;
     font-weight: 700;
-    margin-left: 13rem;
+    margin: 0;
+    margin-left: 15rem;
     float: left;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: -7px;
     line-height: 0.5;
   }
@@ -1304,7 +1304,7 @@ hr {
     height: 7px;
     width: 120px;
     float: left;
-    margin-left: 9rem;
+    margin-left: 12rem;
   }
 
   .layer-2 {
