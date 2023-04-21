@@ -1257,40 +1257,50 @@ hr {
     overflow: hidden;
   }
   .bank-text {
-    left: 3vw;
+    left: 6vw;
     position: absolute;
     top: 58vh;
-    width: 30vw;
+    width: 80vw;
     z-index: 999;
   }
   .bank {
-    height: 4rem;
-    width: 20rem;
+    /* height: 4rem; */
+    width: 72vw;
     background-color: #002e45;
     top: 50%;
     left: 50%;
     translate: (-50% -50%);
     margin-left: 0;
     margin-right: 0;
-    margin-top: 4rem;
+    padding: 0 6px;
+    /* margin-top: 4rem; */
     border-radius: 10px 10px 0 10px;
     text-align: center;
     color: #fff;
     font-size: 2rem;
     font-weight: 800;
     line-height: 1.5;
+    /* background: #002e45 0 0 no-repeat padding-box;
+    border-radius: 10px 10px 0 10px;
+    color: #fff;
+    font: normal normal 800 8vw Poppins;
+    letter-spacing: 0;
+    padding: 0.025vh 0.8vw;
+    text-align: center;
+    width: 72vw; */
   }
   .bank span {
     color: #00a6ff;
   }
   .get {
     background-color: #fff;
-    height: 2rem;
-    width: 8rem;
+    /* height: 2rem; */
+    width: 30vw;
     color: #00a6ff;
     border-radius: 0 0 10px 10px;
     text-align: center;
-    padding: 0.8rem 0;
+    /* padding: 0.8rem 0; */
+    padding: 2vh 1.5vw;
     font-weight: 700;
     margin: 0;
     margin-left: 14rem;
@@ -1298,6 +1308,16 @@ hr {
     font-size: 1rem;
     margin-top: -7px;
     line-height: 0.5;
+        /* background: #fff 0 0 no-repeat padding-box;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    color: #00a6ff;
+    font: normal normal 600 3.5vw Poppins;
+    margin-left: -8vw;
+    margin-top: -0.01vw;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    width: 30vw; */
   }
   .border {
     background-color: #fff;
